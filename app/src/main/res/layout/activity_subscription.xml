@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Subscription"
+    android:padding="30dp">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/muli_bold"
+            android:text="Devam Etmek için Üye Olun"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/muli_bold"
+            android:text="Muhteşem bir deneyim için paketinizi seçin ve hedefinze bir adım daha yaklaşın"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="22dp"
+            android:background="#F4F4F4"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/mobile_icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/premium"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"/>
+
+            <TextView
+                android:id="@+id/mobile_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aylık"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:fontFamily="@font/muli_bold"
+                android:layout_toRightOf="@+id/mobile_icon"
+                android:layout_marginTop="35dp"/>
+
+            <TextView
+                android:id="@+id/mobile_des"
+                android:layout_width="251dp"
+                android:layout_height="38dp"
+                android:layout_below="@id/mobile_title"
+                android:layout_toRightOf="@+id/mobile_icon"
+                android:fontFamily="@font/muli_bold"
+                android:text="Aylık ödeyin. İstediğiniz an iptal edin."
+                android:textColor="#A3000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:text="19.99 ₺"
+                android:fontFamily="@font/muli_bold"
+                android:textSize="20sp"
+                android:layout_marginTop="38dp"
+                android:textColor="@color/black"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00FFFFFF" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="50dp"
+            android:background="#F4F4F4"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/mail_icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/premium_2"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"/>
+
+            <TextView
+                android:id="@+id/mail_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yıllık"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/muli_bold"
+                android:layout_toRightOf="@+id/mail_icon"
+                android:layout_marginTop="35dp"/>
+
+            <TextView
+                android:id="@+id/mail_des"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tüm yıl için tek bir ödeme seçeneği."
+                android:textColor="#A3000000"
+                android:textSize="15sp"
+                android:fontFamily="@font/muli_bold"
+                android:layout_toRightOf="@+id/mail_icon"
+                android:layout_below="@id/mail_title"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:text="129.99 ₺"
+                android:fontFamily="@font/muli_bold"
+                android:textSize="20sp"
+                android:layout_marginTop="38dp"
+                android:textColor="@color/black"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00FFFFFF"/>
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
